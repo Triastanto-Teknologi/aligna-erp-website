@@ -10,7 +10,10 @@
       "Bash(curl -s -o \"C:/Users/trias/Code/alignaerp-website/.figma-validation/02-hero.png\" \"https://www.figma.com/api/mcp/asset/bcb456ea-c8ec-4a99-b710-55716b3fbdec\")",
       "Bash(curl -s -o \"C:/Users/trias/Code/alignaerp-website/.figma-validation/03a-section-2037.png\" \"https://www.figma.com/api/mcp/asset/f0a2972e-0e6c-4c43-a20c-a97d57771d2c\")",
       "Bash(curl -s -o \"C:/Users/trias/Code/alignaerp-website/.figma-validation/03b-section-2108.png\" \"https://www.figma.com/api/mcp/asset/8ff21f3a-05bf-4164-9ee9-70d3b6e458ef\")",
-      "Bash(curl -s -o \"C:/Users/trias/Code/alignaerp-website/.figma-validation/07-container-2683.png\" \"https://www.figma.com/api/mcp/asset/5da6eb17-8c00-44eb-81ce-da1ecfaa1437\")"
+      "Bash(curl -s -o \"C:/Users/trias/Code/alignaerp-website/.figma-validation/07-container-2683.png\" \"https://www.figma.com/api/mcp/asset/5da6eb17-8c00-44eb-81ce-da1ecfaa1437\")",
+      "Bash(npm run *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }

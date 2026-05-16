@@ -53,14 +53,14 @@ const modules = [
   },
   {
     icon: FileText,
-    title: 'Document Management & ECM',
+    title: 'Document Management System (DMS) & Workflow Automation',
     body: 'Penyimpanan, versi, dan workflow dokumen dengan kontrol akses granular.',
   },
 ];
 
 export default function CoreBusinessModules() {
   return (
-    <section className="bg-white py-24">
+    <section className="bg-sky-50 py-24">
       <div className="mx-auto max-w-[1280px] px-20">
         <div className="text-center">
           <h2 className="font-sans text-[56px] font-extrabold leading-[1.1] text-ink">
@@ -76,9 +76,9 @@ export default function CoreBusinessModules() {
           {modules.map(({ icon: Icon, title, body }) => (
             <article
               key={title}
-              className="group flex flex-col rounded-2xl border border-slate-200 bg-white p-7 transition hover:border-sky-800 hover:shadow-lg"
+              className="group flex flex-col rounded-2xl bg-sky-100/60 p-7 transition hover:bg-sky-100 hover:shadow-lg"
             >
-              <div className="flex size-14 items-center justify-center rounded-xl bg-sky-100 transition group-hover:bg-sky-800">
+              <div className="flex size-14 items-center justify-center rounded-xl bg-white transition group-hover:bg-sky-800">
                 <Icon
                   size={28}
                   className="text-sky-800 transition group-hover:text-white"

@@ -1,4 +1,4 @@
-import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 export default function Testimonial() {
   return (
@@ -33,10 +33,6 @@ export default function Testimonial() {
 
           <div className="relative flex-1">
             <div className="absolute -inset-4 -rotate-[18deg] rounded-[50px] bg-brand-blue/90" />
-            <Quote
-              size={48}
-              className="absolute -left-2 top-1/2 -translate-y-1/2 -translate-x-12 text-white"
-            />
             <img
               src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80"
               alt="Tim AlignaERP"
