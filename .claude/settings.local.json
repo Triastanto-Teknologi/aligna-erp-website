@@ -31,7 +31,8 @@
       "mcp__playwright__browser_close",
       "Bash(git mv *)",
       "mcp__playwright__browser_click",
-      "PowerShell(Get-NetTCPConnection -LocalPort 5182 -ErrorAction SilentlyContinue | ForEach-Object { Stop-Process -Id $_.OwningProcess -Force -ErrorAction SilentlyContinue }; Remove-Item -Force -ErrorAction SilentlyContinue 'desktop-1440.png','tablet-768.png','mobile-414.png','mobile-360.png','mobile-360-drawer-open.png'; Remove-Item -Recurse -Force -ErrorAction SilentlyContinue '.playwright-mcp'; \"done\")"
+      "PowerShell(Get-NetTCPConnection -LocalPort 5182 -ErrorAction SilentlyContinue | ForEach-Object { Stop-Process -Id $_.OwningProcess -Force -ErrorAction SilentlyContinue }; Remove-Item -Force -ErrorAction SilentlyContinue 'desktop-1440.png','tablet-768.png','mobile-414.png','mobile-360.png','mobile-360-drawer-open.png'; Remove-Item -Recurse -Force -ErrorAction SilentlyContinue '.playwright-mcp'; \"done\")",
+      "mcp__playwright__browser_hover"
     ]
   }
 }

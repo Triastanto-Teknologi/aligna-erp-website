@@ -48,7 +48,7 @@ export default function CTABanner() {
           </div>
           <a
             href="mailto:hello@alignaerp.io"
-            className="mt-2 inline-flex w-full items-center justify-center gap-3 rounded-lg bg-amber-cta px-8 py-4 text-base font-bold leading-6 tracking-[0.5px] text-amber-cta-text hover:brightness-105 transition sm:w-auto sm:text-lg"
+            className="mt-2 inline-flex w-full items-center justify-center gap-3 whitespace-nowrap rounded-lg bg-amber-cta px-8 py-4 text-base font-bold leading-6 tracking-[0.5px] text-amber-cta-text hover:brightness-105 transition sm:w-auto sm:text-lg"
           >
             Request Demo
             <ArrowRight size={20} />
