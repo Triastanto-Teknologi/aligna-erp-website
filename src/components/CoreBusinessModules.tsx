@@ -76,13 +76,17 @@ export default function CoreBusinessModules() {
           {modules.map(({ icon: Icon, title, body }) => (
             <article
               key={title}
-              className="group flex flex-col rounded-2xl bg-sky-100/60 p-7 transition hover:bg-sky-100 hover:shadow-lg"
+              className="group flex flex-col rounded-2xl bg-sky-50 p-7 transition hover:bg-sky-100/80 hover:shadow-lg"
             >
-              <div className="flex size-14 items-center justify-center rounded-xl bg-white transition group-hover:bg-sky-800">
+              <div className="relative flex size-14 items-center justify-center rounded-xl bg-white transition group-hover:bg-sky-800">
                 <Icon
                   size={28}
                   className="text-sky-800 transition group-hover:text-white"
                   strokeWidth={2.25}
+                />
+                <span
+                  aria-hidden="true"
+                  className="absolute -top-1 -right-1 size-3 rounded-full bg-amber-cta"
                 />
               </div>
               <h3 className="mt-5 text-xl font-bold leading-tight text-ink">

@@ -32,7 +32,7 @@ export default function Testimonial() {
           </div>
 
           <div className="relative w-[600px] shrink-0">
-            <div className="absolute -inset-4 -rotate-[18deg] rounded-[50px] bg-brand-blue/90" />
+            <div className="absolute -inset-2 -rotate-[6deg] rounded-[30px] bg-brand-blue/90" />
             <img
               src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80"
               alt="Tim AlignaERP"

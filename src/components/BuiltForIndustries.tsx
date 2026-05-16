@@ -7,7 +7,7 @@ const industries = [
   {
     title: 'Retail & Distribution',
     body: 'Mengintegrasikan penjualan, manajemen stok, dan distribusi untuk memastikan ketersediaan barang serta kelancaran supply chain.',
-    image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?auto=format&fit=crop&w=800&q=80',
   },
   {
     title: 'Trading/General Trading',
@@ -27,7 +27,7 @@ const industries = [
   {
     title: 'Education & Foundation',
     body: 'Mengintegrasikan operasional, keuangan, dan tata kelola institusi dalam satu sistem untuk meningkatkan transparansi dan efisiensi.',
-    image: 'https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=800&q=80',
   },
 ];
 
@@ -51,7 +51,7 @@ export default function BuiltForIndustries() {
           {industries.map(({ title, body, image }) => (
             <article
               key={title}
-              className="group overflow-hidden rounded-2xl bg-white shadow-sm ring-1 ring-slate-200 transition hover:shadow-md"
+              className="group overflow-hidden rounded-2xl bg-white shadow-sm transition hover:shadow-md"
             >
               <div className="relative h-[180px] overflow-hidden">
                 <img

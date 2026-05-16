@@ -26,14 +26,14 @@ export default function OperationalControl() {
         <div className="relative">
           <span
             aria-hidden="true"
-            className="absolute -left-6 -top-6 size-24 rounded-tr-[40px] bg-amber-cta/90"
+            className="absolute -right-6 -bottom-6 size-24 rounded-bl-[40px] bg-amber-cta/90"
           />
           <img
-            src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1200&q=80"
+            src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&q=80"
             alt="Tim AlignaERP berkolaborasi"
             className="relative h-[420px] w-full rounded-[24px] object-cover shadow-xl"
           />
-          <div className="absolute -bottom-6 left-6 max-w-[260px] rounded-xl bg-white p-4 shadow-lg ring-1 ring-slate-200">
+          <div className="absolute -top-6 left-6 max-w-[260px] rounded-xl bg-white p-4 shadow-lg ring-1 ring-slate-200">
             <p className="text-xs font-bold uppercase tracking-[2px] text-sky-800">
               Key Capability
             </p>
