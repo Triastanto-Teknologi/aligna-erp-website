@@ -20,8 +20,8 @@ const features = [
 
 export default function OperationalControl() {
   return (
-    <section className="bg-white py-20">
-      <div className="mx-auto grid max-w-[1280px] grid-cols-1 items-center gap-16 px-20 lg:grid-cols-2">
+    <section id="solution" className="bg-white py-20">
+      <div className="mx-auto grid max-w-[1280px] grid-cols-1 items-center gap-20 px-20 lg:grid-cols-[600px_600px] lg:px-0">
         {/* Left: image with decorative tag overlay */}
         <div className="relative">
           <span

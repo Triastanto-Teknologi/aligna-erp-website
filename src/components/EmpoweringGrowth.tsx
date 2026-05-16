@@ -2,7 +2,7 @@ import DashboardMockup from './DashboardMockup';
 
 export default function EmpoweringGrowth() {
   return (
-    <section className="relative bg-white py-16">
+    <section id="platform-overview" className="relative bg-white py-16">
       <div className="mx-auto max-w-[1280px] px-20">
         <div className="text-center">
           <h2 className="font-display text-[56px] font-extrabold leading-[1.1] text-ink">

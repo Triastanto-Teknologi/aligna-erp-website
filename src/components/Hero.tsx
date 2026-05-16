@@ -16,19 +16,6 @@ export default function Hero() {
           fill="white"
         />
       </svg>
-      <svg
-        className="pointer-events-none absolute -left-8 bottom-12 w-[1520px] opacity-30"
-        viewBox="0 0 1520 422"
-        fill="none"
-        preserveAspectRatio="none"
-        aria-hidden="true"
-      >
-        <path
-          d="M0 200 C 320 60, 760 360, 1520 160"
-          stroke="#1e40af"
-          strokeWidth="2"
-        />
-      </svg>
 
       <div className="relative mx-auto max-w-[1280px] px-20">
         <div className="flex flex-col items-center gap-8 text-center">
@@ -51,8 +38,25 @@ export default function Hero() {
         </div>
 
         {/* Dashboard preview */}
-        <div className="relative mx-auto mt-20 h-[727px] w-[1100px]">
-          <DashboardMockup />
+        <div className="relative mx-auto mt-20 h-[900px] w-[1100px]">
+          <svg
+            className="pointer-events-none absolute bottom-full left-1/2 -translate-x-1/2 translate-y-[110%] w-screen max-w-none"
+            viewBox="0 0 1440 425"
+            fill="none"
+            overflow="visible"
+            preserveAspectRatio="none"
+            aria-hidden="true"
+          >
+            <path
+              d="M122.412 240.398C24.9415 266.962 -0.894173 346.818 69.4281 386.974C139.75 427.13 151.05 357.564 19.6304 199.58C-66.0316 114.45 -63.3987 -66.5793 151.05 28.2893C419.11 146.875 963.934 215.266 1086.65 121.778C1184.82 46.987 1295.82 90.6148 1339.04 121.778C1390.03 158.535 1436 274.245 1280.73 377.145C1086.65 505.769 1083.17 328.832 1255.49 301.225C1393.35 279.139 1467.27 325.904 1487 352.047"
+              stroke="#2088ED"
+              strokeWidth="3"
+              vectorEffect="non-scaling-stroke"
+            />
+          </svg>
+          <div className="relative z-10 h-full w-full">
+            <DashboardMockup />
+          </div>
         </div>
       </div>
     </section>

@@ -13,7 +13,23 @@
       "Bash(curl -s -o \"C:/Users/trias/Code/alignaerp-website/.figma-validation/07-container-2683.png\" \"https://www.figma.com/api/mcp/asset/5da6eb17-8c00-44eb-81ce-da1ecfaa1437\")",
       "Bash(npm run *)",
       "Bash(git add *)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "mcp__playwright__browser_resize",
+      "Bash(curl -s -o screenshots/figma/_overview.png \"https://www.figma.com/api/mcp/asset/54159bbc-ccd8-4215-b316-e53dd9e3ffec\")",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_evaluate",
+      "Bash(node -e ' *)",
+      "Bash(curl -s -o Header.png \"https://www.figma.com/api/mcp/asset/120b099b-c60b-4d0b-b76f-9bb57a994838\")",
+      "Bash(curl -s -o OperationalControl.png \"https://www.figma.com/api/mcp/asset/67185533-a3cd-44e2-8884-09425df05fce\")",
+      "Bash(curl -s -o Testimonial.png \"https://www.figma.com/api/mcp/asset/64b4c33b-2671-4e17-9f55-8f7bd9d776b4\")",
+      "Bash(curl -s -o BuiltForIndustries.png \"https://www.figma.com/api/mcp/asset/e197a92b-0a80-49f5-988a-3fb35159fc8c\")",
+      "Bash(curl -s -o CoreBusinessModules.png \"https://www.figma.com/api/mcp/asset/f98253ba-15b5-45e1-af52-a29e8194c232\")",
+      "mcp__playwright__browser_take_screenshot",
+      "Bash(xxd)",
+      "Bash(curl -s -o /tmp/check-logo.png -w \"HTTP %{http_code} CT:%{content_type} size:%{size_download}\\\\n\" \"http://localhost:5173/src/assets/aligna-logo.png\")",
+      "Read(//tmp/**)",
+      "mcp__playwright__browser_close",
+      "Bash(git mv *)"
     ]
   }
 }

@@ -33,7 +33,7 @@ const industries = [
 
 export default function BuiltForIndustries() {
   return (
-    <section className="bg-white py-24">
+    <section id="industries" className="bg-white py-24">
       <div className="mx-auto max-w-[1280px] px-20">
         <div className="text-center">
           <h2 className="font-sans text-[56px] font-extrabold leading-[1.1] text-ink">

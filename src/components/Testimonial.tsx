@@ -2,17 +2,17 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 export default function Testimonial() {
   return (
-    <section className="bg-navy-deep py-20">
-      <div className="mx-auto flex max-w-[1280px] items-center gap-6 px-20">
+    <section id="client-success" className="bg-navy-deep py-20">
+      <div className="relative mx-auto flex max-w-[1280px] items-center justify-center px-20">
         <button
           aria-label="Previous testimonial"
-          className="shrink-0 text-white/70 hover:text-white transition"
+          className="absolute left-4 top-1/2 -translate-y-1/2 text-white/70 hover:text-white transition"
         >
           <ChevronLeft size={48} />
         </button>
 
-        <div className="flex flex-1 items-center gap-20">
-          <div className="flex flex-1 flex-col gap-12">
+        <div className="flex items-center justify-center gap-20">
+          <div className="flex w-[600px] shrink-0 flex-col gap-12">
             <div className="space-y-4">
               <p className="text-2xl leading-[1.6] text-white">
                 “AlignaERP membantu kami meningkatkan efisiensi operasional dan
@@ -31,7 +31,7 @@ export default function Testimonial() {
             </div>
           </div>
 
-          <div className="relative flex-1">
+          <div className="relative w-[600px] shrink-0">
             <div className="absolute -inset-4 -rotate-[18deg] rounded-[50px] bg-brand-blue/90" />
             <img
               src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80"
@@ -43,7 +43,7 @@ export default function Testimonial() {
 
         <button
           aria-label="Next testimonial"
-          className="shrink-0 text-white/70 hover:text-white transition"
+          className="absolute right-4 top-1/2 -translate-y-1/2 text-white/70 hover:text-white transition"
         >
           <ChevronRight size={48} />
         </button>
