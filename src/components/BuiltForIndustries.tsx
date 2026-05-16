@@ -33,13 +33,13 @@ const industries = [
 
 export default function BuiltForIndustries() {
   return (
-    <section id="industries" className="bg-white py-24">
-      <div className="mx-auto max-w-[1280px] px-20">
+    <section id="industries" className="bg-white py-16 md:py-20 lg:py-24">
+      <div className="mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-12 xl:px-20">
         <div className="text-center">
-          <h2 className="font-sans text-[56px] font-extrabold leading-[1.1] text-ink">
+          <h2 className="font-sans text-[28px] font-extrabold leading-[1.15] text-ink sm:text-[36px] md:text-[44px] xl:text-[56px] xl:leading-[1.1]">
             Built for Various Industries
           </h2>
-          <p className="mx-auto mt-5 max-w-[900px] text-xl leading-[1.6] text-ink-soft">
+          <p className="mx-auto mt-5 max-w-[900px] text-base leading-[1.6] text-ink-soft md:text-lg xl:text-xl">
             Dirancang untuk berbagai industri dengan kebutuhan operasional yang
             kompleks, menghadirkan integrasi sistem yang fleksibel, efisien, dan
             terukur guna mendukung kontrol proses, peningkatan produktivitas,
@@ -47,7 +47,7 @@ export default function BuiltForIndustries() {
           </p>
         </div>
 
-        <div className="mt-14 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-10 grid grid-cols-1 gap-8 md:mt-14 md:grid-cols-2 lg:grid-cols-3">
           {industries.map(({ title, body, image }) => (
             <article
               key={title}

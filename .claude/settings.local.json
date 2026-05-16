@@ -29,7 +29,9 @@
       "Bash(curl -s -o /tmp/check-logo.png -w \"HTTP %{http_code} CT:%{content_type} size:%{size_download}\\\\n\" \"http://localhost:5173/src/assets/aligna-logo.png\")",
       "Read(//tmp/**)",
       "mcp__playwright__browser_close",
-      "Bash(git mv *)"
+      "Bash(git mv *)",
+      "mcp__playwright__browser_click",
+      "PowerShell(Get-NetTCPConnection -LocalPort 5182 -ErrorAction SilentlyContinue | ForEach-Object { Stop-Process -Id $_.OwningProcess -Force -ErrorAction SilentlyContinue }; Remove-Item -Force -ErrorAction SilentlyContinue 'desktop-1440.png','tablet-768.png','mobile-414.png','mobile-360.png','mobile-360-drawer-open.png'; Remove-Item -Recurse -Force -ErrorAction SilentlyContinue '.playwright-mcp'; \"done\")"
     ]
   }
 }

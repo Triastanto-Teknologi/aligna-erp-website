@@ -2,7 +2,7 @@ import DashboardMockup from './DashboardMockup';
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-navy pt-[200px] pb-32">
+    <section className="relative overflow-hidden bg-navy pt-28 pb-16 sm:pt-32 sm:pb-20 md:pt-40 lg:pt-[200px] lg:pb-32">
       {/* Decorative background curves */}
       <svg
         className="pointer-events-none absolute inset-x-0 bottom-0 w-full"
@@ -17,28 +17,29 @@ export default function Hero() {
         />
       </svg>
 
-      <div className="relative mx-auto max-w-[1280px] px-20">
-        <div className="flex flex-col items-center gap-8 text-center">
-          <h1 className="font-sans text-[64px] font-extrabold leading-[1.1] text-white">
+      <div className="relative mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-12 xl:px-20">
+        <div className="flex flex-col items-center gap-6 text-center sm:gap-8">
+          <h1 className="font-sans text-[32px] font-extrabold leading-[1.15] text-white sm:text-[40px] md:text-[48px] xl:text-[64px] xl:leading-[1.1]">
             Integrated Business System
-            <br />
+            <br className="hidden lg:block" />
+            {' '}
             for Operational Excellence
           </h1>
-          <p className="max-w-[1100px] text-[32px] font-light leading-[1.6] text-white">
+          <p className="max-w-[1100px] text-base font-light leading-relaxed text-white sm:text-lg md:text-xl xl:text-[32px] xl:leading-[1.6]">
             Solusi ERP terintegrasi untuk mengelola, mengontrol, dan
             mengoptimalkan seluruh proses bisnis dalam satu platform berbasis
             data.
           </p>
           <a
             href="#cta"
-            className="mt-2 inline-flex items-center justify-center rounded-lg border-2 border-amber-cta bg-amber-cta px-12 py-5 text-2xl font-bold leading-6 tracking-[0.5px] text-amber-cta-text hover:brightness-105 transition"
+            className="mt-2 inline-flex items-center justify-center rounded-lg border-2 border-amber-cta bg-amber-cta px-8 py-4 text-lg font-bold leading-6 tracking-[0.5px] text-amber-cta-text hover:brightness-105 transition sm:px-10 sm:py-5 sm:text-xl xl:px-12 xl:text-2xl"
           >
             Request Demo
           </a>
         </div>
 
         {/* Dashboard preview */}
-        <div className="relative mx-auto mt-20 h-[900px] w-[1100px]">
+        <div className="relative mx-auto mt-12 aspect-[1100/900] w-full max-w-[1100px] md:mt-16 lg:mt-20">
           <svg
             className="pointer-events-none absolute bottom-full left-1/2 -translate-x-1/2 translate-y-[110%] w-screen max-w-none"
             viewBox="0 0 1440 425"

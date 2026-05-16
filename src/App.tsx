@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 
 export default function App() {
   return (
-    <div className="relative min-h-screen bg-white">
+    <div className="relative min-h-screen overflow-x-clip bg-white">
       <Header />
       <Hero />
       <OperationalControl />
