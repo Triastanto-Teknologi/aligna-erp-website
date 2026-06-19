@@ -7,18 +7,22 @@ import BuiltForIndustries from './components/BuiltForIndustries';
 import CoreBusinessModules from './components/CoreBusinessModules';
 import CTABanner from './components/CTABanner';
 import Footer from './components/Footer';
+import StructuredData from './components/StructuredData';
 
 export default function App() {
   return (
     <div className="relative min-h-screen overflow-x-clip bg-white">
+      <StructuredData />
       <Header />
-      <Hero />
-      <OperationalControl />
-      <EmpoweringGrowth />
-      <Testimonial />
-      <BuiltForIndustries />
-      <CoreBusinessModules />
-      <CTABanner />
+      <main>
+        <Hero />
+        <OperationalControl />
+        <EmpoweringGrowth />
+        <Testimonial />
+        <BuiltForIndustries />
+        <CoreBusinessModules />
+        <CTABanner />
+      </main>
       <Footer />
     </div>
   );

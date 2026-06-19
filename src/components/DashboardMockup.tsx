@@ -26,7 +26,7 @@ export default function DashboardMockup({ className = '' }: { className?: string
           <span className="size-2.5 rounded-full bg-[#28c840]" />
         </div>
         <div className="absolute left-1/2 top-2 flex -translate-x-1/2 items-center justify-center rounded-md bg-mist px-2 py-1">
-          <p className="text-xs text-ink-muted">app.alignaerp.io</p>
+          <p className="text-xs text-ink-muted">app.alignaerp.com</p>
         </div>
         <div className="flex flex-1 items-center justify-end gap-1.5">
           <ChevronLeft size={20} className="text-ink-muted" />

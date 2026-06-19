@@ -1,0 +1,10 @@
+# Netlify deployment config. (Cloudflare Pages reads public/_headers and
+# public/_redirects directly and needs no config file — just set build
+# command "npm run build" and output directory "dist" in the dashboard.)
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"

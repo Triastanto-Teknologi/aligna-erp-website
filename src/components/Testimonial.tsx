@@ -35,7 +35,9 @@ export default function Testimonial() {
             <div className="absolute -inset-2 -rotate-[6deg] rounded-[30px] bg-brand-blue/90" />
             <img
               src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80"
-              alt="Tim AlignaERP"
+              alt="Pelanggan AlignaERP, PT Kesejahteraan Bersama"
+              loading="lazy"
+              decoding="async"
               className="relative aspect-[600/415] w-full rounded-[20px] object-cover shadow-2xl md:aspect-auto md:h-[415px]"
             />
           </div>

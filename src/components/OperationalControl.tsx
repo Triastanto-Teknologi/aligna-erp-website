@@ -30,7 +30,9 @@ export default function OperationalControl() {
           />
           <img
             src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&q=80"
-            alt="Tim AlignaERP berkolaborasi"
+            alt="Tim AlignaERP berkolaborasi mengelola operasional bisnis"
+            loading="lazy"
+            decoding="async"
             className="relative aspect-[600/420] w-full rounded-[24px] object-cover shadow-xl lg:aspect-auto lg:h-[420px]"
           />
           <div className="absolute -top-6 left-4 max-w-[220px] rounded-xl bg-white p-4 shadow-lg ring-1 ring-slate-200 sm:left-6 sm:max-w-[260px]">

@@ -56,7 +56,9 @@ export default function BuiltForIndustries() {
               <div className="relative h-[180px] overflow-hidden">
                 <img
                   src={image}
-                  alt=""
+                  alt={`AlignaERP untuk industri ${title}`}
+                  loading="lazy"
+                  decoding="async"
                   className="absolute inset-0 size-full object-cover transition duration-500 group-hover:scale-105"
                 />
               </div>
