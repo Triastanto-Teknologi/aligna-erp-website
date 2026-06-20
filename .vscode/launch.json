@@ -1,0 +1,21 @@
+{
+  // Multi-root workspace: this config appears in the Run and Debug dropdown as
+  // "▶ aligna-erp-website: dev (aligna-erp-website)". Pick the project there, then press F5.
+  // serverReadyAction reads the actual Vite URL, so it works even when the port
+  // shifts (e.g. 5174) because another sibling dev server already holds 5173.
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "▶ aligna-erp-website: dev",
+      "type": "node-terminal",
+      "request": "launch",
+      "command": "npm run dev",
+      "cwd": "${workspaceFolder}",
+      "serverReadyAction": {
+        "pattern": "(https?://localhost:[0-9]+/?)",
+        "uriFormat": "%s",
+        "action": "openExternally"
+      }
+    }
+  ]
+}
