@@ -19,7 +19,7 @@ export default function EmpoweringGrowth() {
         {/* Floating dashboard on dark slab */}
         <div className="relative mt-10 md:mt-12 lg:mt-16">
           <div className="absolute inset-x-0 top-6 mx-auto h-[70%] w-full max-w-[1214px] rounded-[28px] bg-navy-deep sm:top-8 md:rounded-[40px] lg:top-12 lg:h-[480px] lg:rounded-[50px]" />
-          <div className="relative mx-auto aspect-[920/520] w-full max-w-[920px]">
+          <div className="relative mx-auto aspect-[920/560] w-full max-w-[920px]">
             <DashboardMockup />
           </div>
         </div>

@@ -1,14 +1,5 @@
-import {
-  LayoutDashboard,
-  TrendingUp,
-  ShoppingCart,
-  Wallet,
-  Users,
-  Box,
-  ArrowUpRight,
-  ChevronLeft,
-  ChevronRight,
-} from 'lucide-react';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
+import dashboard from '../assets/dashboard.png';
 
 export default function DashboardMockup({ className = '' }: { className?: string }) {
   return (
@@ -34,84 +25,13 @@ export default function DashboardMockup({ className = '' }: { className?: string
         </div>
       </div>
 
-      {/* App body */}
-      <div className="flex flex-1 bg-sky-50">
-        {/* Sidebar */}
-        <aside className="flex w-[140px] shrink-0 flex-col gap-2 bg-white p-4 border-r border-slate-100">
-          <div className="mb-2 text-xs font-bold text-ink">AlignaERP</div>
-          {[
-            { i: LayoutDashboard, label: 'Dashboard', active: true },
-            { i: TrendingUp, label: 'Sales' },
-            { i: ShoppingCart, label: 'Purchase' },
-            { i: Wallet, label: 'Finance' },
-            { i: Users, label: 'HR' },
-            { i: Box, label: 'Inventory' },
-          ].map(({ i: Icon, label, active }) => (
-            <div
-              key={label}
-              className={
-                'flex items-center gap-2 rounded-md px-2 py-1.5 text-[11px] ' +
-                (active
-                  ? 'bg-sky-100 text-sky-800 font-semibold'
-                  : 'text-ink-soft')
-              }
-            >
-              <Icon size={14} />
-              {label}
-            </div>
-          ))}
-        </aside>
-
-        {/* Main content */}
-        <main className="flex flex-1 flex-col gap-3 p-5">
-          {/* KPI row */}
-          <div className="grid grid-cols-3 gap-3">
-            {[
-              { label: 'Revenue', value: 'Rp 2.4B', delta: '+12.5%', accent: 'text-emerald-500' },
-              { label: 'Orders', value: '1,284', delta: '+8.2%', accent: 'text-emerald-500' },
-              { label: 'Active SKUs', value: '5,720', delta: '+3.1%', accent: 'text-sky-500' },
-            ].map((k) => (
-              <div key={k.label} className="rounded-lg bg-white p-3 shadow-sm">
-                <p className="text-[10px] text-ink-muted">{k.label}</p>
-                <p className="mt-0.5 text-sm font-bold text-ink">{k.value}</p>
-                <p className={'mt-1 flex items-center gap-1 text-[10px] font-semibold ' + k.accent}>
-                  <ArrowUpRight size={10} /> {k.delta}
-                </p>
-              </div>
-            ))}
-          </div>
-
-          {/* Chart placeholder */}
-          <div className="flex flex-1 gap-3">
-            <div className="flex flex-1 flex-col rounded-lg bg-white p-3 shadow-sm">
-              <p className="text-[11px] font-semibold text-ink">Monthly Performance</p>
-              <div className="mt-2 flex flex-1 items-end gap-2">
-                {[40, 65, 55, 80, 70, 90, 60, 95, 75].map((h, i) => (
-                  <div
-                    key={i}
-                    className="flex-1 rounded-t-sm bg-gradient-to-t from-sky-200 to-sky-500"
-                    style={{ height: `${h}%` }}
-                  />
-                ))}
-              </div>
-            </div>
-            <div className="flex w-[120px] flex-col gap-2 rounded-lg bg-white p-3 shadow-sm">
-              <p className="text-[11px] font-semibold text-ink">Modules</p>
-              <div className="flex flex-1 items-center justify-center">
-                <div className="relative size-16 rounded-full bg-conic from-sky-500 from-0% via-yellow-400 via-40% to-rose-500 to-80%">
-                  <div className="absolute inset-2 rounded-full bg-white flex items-center justify-center">
-                    <span className="text-[10px] font-bold text-ink">12</span>
-                  </div>
-                </div>
-              </div>
-              <div className="space-y-1 text-[9px] text-ink-muted">
-                <div className="flex items-center gap-1"><span className="size-1.5 rounded-full bg-sky-500" /> Finance</div>
-                <div className="flex items-center gap-1"><span className="size-1.5 rounded-full bg-yellow-400" /> Sales</div>
-                <div className="flex items-center gap-1"><span className="size-1.5 rounded-full bg-rose-500" /> HR</div>
-              </div>
-            </div>
-          </div>
-        </main>
+      {/* App screenshot */}
+      <div className="flex-1 overflow-hidden bg-white">
+        <img
+          src={dashboard}
+          alt="Tampilan dasbor ERP Aligna"
+          className="h-full w-full object-cover object-top"
+        />
       </div>
     </div>
   );
