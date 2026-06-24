@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import logo from '../assets/aligna-logo.svg';
+import logo from '../assets/aligna-logo-ondark.svg';
 
 const navItems = [
   { label: 'Solutions', href: '#solution' },
