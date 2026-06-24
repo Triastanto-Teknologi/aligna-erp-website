@@ -5,7 +5,7 @@ import logo from '../assets/aligna-logo-ondark.svg';
 const navItems = [
   { label: 'Solutions', href: '#solution' },
   { label: 'Platform Overview', href: '#platform-overview' },
-  { label: 'Client Success', href: '#client-success' },
+  // { label: 'Client Success', href: '#client-success' },
   { label: 'Industries', href: '#industries' },
   { label: 'Business Modules', href: '#business-modules' },
 ];
