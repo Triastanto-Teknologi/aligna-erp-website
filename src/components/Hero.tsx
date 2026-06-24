@@ -2,7 +2,17 @@ import DashboardMockup from './DashboardMockup';
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden bg-navy pt-28 pb-16 sm:pt-32 sm:pb-20 md:pt-40 lg:pt-[200px] lg:pb-32">
+    <section className="relative overflow-hidden bg-navy-brand pt-28 pb-16 sm:pt-32 sm:pb-20 md:pt-40 lg:pt-[200px] lg:pb-32">
+      {/* Soft radial glows — mirrors the login split brand panel */}
+      <div
+        className="pointer-events-none absolute inset-0"
+        aria-hidden="true"
+        style={{
+          background:
+            'radial-gradient(800px 460px at 85% 5%, rgba(84,184,240,0.22), transparent 65%), radial-gradient(620px 420px at 0% 35%, rgba(27,111,216,0.28), transparent 60%)',
+        }}
+      />
+
       {/* Decorative background curves */}
       <svg
         className="pointer-events-none absolute inset-x-0 bottom-0 w-full"
@@ -39,7 +49,7 @@ export default function Hero() {
         </div>
 
         {/* Dashboard preview */}
-        <div className="relative mx-auto mt-12 aspect-[1100/900] w-full max-w-[1100px] md:mt-16 lg:mt-20">
+        <div className="relative mx-auto mt-12 aspect-[1100/680] w-full max-w-[1100px] md:mt-16 lg:mt-20">
           <svg
             className="pointer-events-none absolute bottom-full left-1/2 -translate-x-1/2 translate-y-[110%] w-screen max-w-none"
             viewBox="0 0 1440 425"

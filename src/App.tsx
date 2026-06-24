@@ -2,7 +2,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import OperationalControl from './components/OperationalControl';
 import EmpoweringGrowth from './components/EmpoweringGrowth';
-import Testimonial from './components/Testimonial';
+// import Testimonial from './components/Testimonial';
 import BuiltForIndustries from './components/BuiltForIndustries';
 import CoreBusinessModules from './components/CoreBusinessModules';
 import CTABanner from './components/CTABanner';
@@ -18,7 +18,7 @@ export default function App() {
         <Hero />
         <OperationalControl />
         <EmpoweringGrowth />
-        <Testimonial />
+        {/* <Testimonial /> */}
         <BuiltForIndustries />
         <CoreBusinessModules />
         <CTABanner />
