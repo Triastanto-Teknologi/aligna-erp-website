@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import logo from '../assets/aligna-logo-ondark.svg';
+import BookDemoButton from './BookDemoButton';
 
 const navItems = [
   { label: 'Solutions', href: '#solution' },
@@ -32,12 +33,9 @@ export default function Header() {
               </a>
             ))}
           </nav>
-          <a
-            href="#cta"
-            className="flex h-[48px] w-[175px] items-center justify-center rounded-lg border border-white bg-white text-base font-semibold leading-6 tracking-[0.5px] text-ink hover:bg-mist transition-colors"
-          >
+          <BookDemoButton className="flex h-[48px] w-[175px] items-center justify-center rounded-lg border border-white bg-white text-base font-semibold leading-6 tracking-[0.5px] text-ink hover:bg-mist transition-colors">
             Request Demo
-          </a>
+          </BookDemoButton>
         </div>
 
         <button
@@ -64,13 +62,12 @@ export default function Header() {
                 {label}
               </a>
             ))}
-            <a
-              href="#cta"
+            <BookDemoButton
               onClick={() => setOpen(false)}
               className="mt-6 flex h-12 w-full items-center justify-center rounded-lg border border-white bg-white text-base font-semibold leading-6 tracking-[0.5px] text-ink hover:bg-mist transition-colors"
             >
               Request Demo
-            </a>
+            </BookDemoButton>
           </nav>
         </div>
       )}

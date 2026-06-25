@@ -1,4 +1,5 @@
 import DashboardMockup from './DashboardMockup';
+import BookDemoButton from './BookDemoButton';
 
 export default function EmpoweringGrowth() {
   return (
@@ -25,12 +26,9 @@ export default function EmpoweringGrowth() {
         </div>
 
         <div className="mt-10 flex justify-center md:mt-12">
-          <a
-            href="#cta"
-            className="inline-flex items-center justify-center rounded-lg border-2 border-amber-cta bg-amber-cta px-8 py-4 text-lg font-bold leading-6 tracking-[0.5px] text-amber-cta-text hover:brightness-105 transition sm:px-10 sm:py-5 sm:text-xl xl:px-12 xl:text-2xl"
-          >
+          <BookDemoButton className="inline-flex items-center justify-center rounded-lg border-2 border-amber-cta bg-amber-cta px-8 py-4 text-lg font-bold leading-6 tracking-[0.5px] text-amber-cta-text hover:brightness-105 transition sm:px-10 sm:py-5 sm:text-xl xl:px-12 xl:text-2xl">
             Request Demo
-          </a>
+          </BookDemoButton>
         </div>
       </div>
     </section>

@@ -1,5 +1,6 @@
 import { ArrowRight } from 'lucide-react';
 import DashboardMockup from './DashboardMockup';
+import BookDemoButton from './BookDemoButton';
 
 export default function CTABanner() {
   return (
@@ -46,13 +47,10 @@ export default function CTABanner() {
               sistem ERP yang terintegrasi dan scalable.
             </h2>
           </div>
-          <a
-            href="mailto:hello@alignaerp.com"
-            className="mt-2 inline-flex w-full items-center justify-center gap-3 whitespace-nowrap rounded-lg bg-amber-cta px-8 py-4 text-base font-bold leading-6 tracking-[0.5px] text-amber-cta-text hover:brightness-105 transition sm:w-auto sm:text-lg"
-          >
+          <BookDemoButton className="mt-2 inline-flex w-full items-center justify-center gap-3 whitespace-nowrap rounded-lg bg-amber-cta px-8 py-4 text-base font-bold leading-6 tracking-[0.5px] text-amber-cta-text hover:brightness-105 transition sm:w-auto sm:text-lg">
             Request Demo
             <ArrowRight size={20} />
-          </a>
+          </BookDemoButton>
         </div>
 
         <div className="relative mx-auto mt-12 aspect-[1000/420] w-full max-w-[1000px] translate-y-8 md:mt-16 md:translate-y-12">
